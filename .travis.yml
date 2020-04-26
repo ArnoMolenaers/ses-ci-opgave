@@ -1,5 +1,7 @@
 language: java
 
+jdk:
+  - openjdk11
 
 env:
   - NODE_VERSION="12.10.0"

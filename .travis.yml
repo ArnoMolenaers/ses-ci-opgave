@@ -20,4 +20,3 @@ before_install:
 install:
   - ./gradlew check
 
-  - ./gradlew shadowJar

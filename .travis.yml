@@ -14,6 +14,7 @@ before_install:
   - nvm use $NODE_VERSION
   - npm install
   - mkdir dist
+  - chmod +x gradlew
 
 install:
   - ./gradlew check

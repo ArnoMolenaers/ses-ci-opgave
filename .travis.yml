@@ -20,4 +20,5 @@ before_install:
 install:
   - ./gradlew check
   - ./gradlew test
- - ./gradlew shadowJar
+  - ./gradlew.bat test
+

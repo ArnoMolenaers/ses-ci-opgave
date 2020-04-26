@@ -14,7 +14,6 @@ before_install:
   - nvm use $NODE_VERSION
   - npm install
   - mkdir dist
-  - popd
 
 install:
   - ./gradlew check

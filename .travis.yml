@@ -15,10 +15,9 @@ before_install:
   - npm install
   - mkdir dist
   - chmod +x gradlew
-  - chmod +x gradlew
-  - chmod +x gradlew
+
 
 install:
   - ./gradlew check
-  - ./gradlew frontendSync --stacktrace
+
   - ./gradlew shadowJar
